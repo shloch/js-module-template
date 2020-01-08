@@ -23,8 +23,19 @@ const Player = (name, level) => {
       console.log(`${name} has damaged ${enemy.getName()}`);
     }
   };
-  return { attack, damage, getLevel, getName } //only returned methods are publicly available
+  return { attack, damage, getLevel, getName } //<===only returned methods are publicly available
 };
+
+/*
+-----private methods and variables------
+health
+die()
+-----public methods and variables------
+getLevel()
+geName()
+damae(x)
+attack(enemy)
+*/
 
 //usage
 const jimmie = Player('jim', 10);
