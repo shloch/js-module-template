@@ -1,8 +1,8 @@
 //public methods can access private methods
 
-var Module = (function () {
-  var myModule = {};
-  var _privateMethod = function () {
+const Module = (function () {
+  const myModule = {};
+  const _privateMethod = function () {
 
   };
   myModule.publicMethod = function () {
