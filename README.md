@@ -1,2 +1,2 @@
-# My template js file form which i construct my modules
+# My template js file from which i construct my modules
 
